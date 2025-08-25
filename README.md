@@ -34,7 +34,7 @@ Blog-To allows users to **create, manage, and explore blogs seamlessly** with au
 
 ```bash
 git clone https://github.com/your-username/blog-to.git
-cd blog-to
+cd blog
 ```
 
 ### 2️⃣ Install Dependencies
@@ -53,8 +53,9 @@ npm install
 
    * `title` (string)
    * `content` (string / long text)
-   * `author` (string)
-   * `createdAt` (datetime)
+   * `featuredImg` (string)
+   * `Status` (string)
+   * `userId` (string)
 6. Enable **Authentication (Email/Password)** in Appwrite.
 
 ### 4️⃣ Setup Environment Variables
