@@ -50,7 +50,10 @@ function Login() {
                         placeholder="Enter your email"
                         {...register('email', {
                             required: true,
-                            
+                            pattern: {
+                                value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+                                message: "Enter a valid email address",
+                            },
                         })}
                     />    
 
@@ -60,6 +63,7 @@ function Login() {
                         placeholder="Enter your password"
                         {...register('password', {
                             required: true,
+                            minLength: 8
                         })}
                     />    
                     <Button disabled={isSubmitting} type="submit" bgColor={"bg-[#38a3a5]"} className='w-full cursor-pointer '>
