@@ -131,7 +131,7 @@ function Footer() {
                     </div>
                     <div className='w-full mt-8' >
                         <p className="text-sm text-center  text-gray-600">
-                            &copy; Copyright 2025
+                            &copy; Copyright 2025. Built with ❤️ by Zeeshan Ahmad.
                         </p>
                     </div>
                 </div>
