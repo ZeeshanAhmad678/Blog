@@ -20,7 +20,7 @@ function Home() {
                                 <h1 className='text-5xl md:text-6xl text-center md:text-left font-bold text-black'>Welcome,  <span className='text-[#38a3a5]'>{userData?.name.split(" ")[0]}</span></h1>
                                 <p className='mt-6 text-[#666d71] break-words'>Dive into the latest stories, share your thoughts, and keep exploring articles that matter.</p>
                                 <Link to='/all-posts' className='flex gap-4 '>
-                                    <button className='inline-block px-5 py-3 mt-8 duration-200
+                                    <button className='inline-block md:px-5 md:py-3 py-2 px-3 mt-8 duration-200
                                     bg-[#38a3a5]  text-white rounded-full cursor-pointer text-center hover:bg-[#24bcbf] font-semibold'>See Posts</button>
                                     <p className='inline-flex items-center mt-8 gap-2 cursor-pointer font-medium'>You can read and add the posts   <span className='mt-1'><GoArrowRight /></span> </p>
                                 </Link>

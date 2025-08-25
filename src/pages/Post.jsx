@@ -34,7 +34,7 @@ export default function Post() {
     
 
     return post ? (
-        <div className="py-8">
+        <div className="py-8 md:mt-0 mt-6">
             <Container>
                 <div className=" w-full  flex justify-center mb-8 relative  rounded-xl p-2    ">
                     <div className="object-cover border p-2 rounded-xl inline-block ">
@@ -62,7 +62,7 @@ export default function Post() {
                  <div className="md:w-1/2  mb-6">
                      <h1 className="text-2xl md:text-3xl font-merriweather text-center font-bold">{post.title}</h1>
                  </div>
-                 <div className="browser-css font-serif-pro mx-auto max-w-3xl text-xl text-justify leading-7 whitespace-pre-line">
+                 <div className="browser-css px-3.5 md:px-1 font-serif-pro mx-auto max-w-3xl text-xl text-justify leading-7 whitespace-pre-line">
                      {parse(post.content)}
                  </div>
                </div >

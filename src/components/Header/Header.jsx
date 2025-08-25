@@ -103,7 +103,7 @@ function Header() {
               </nav>
             </Container>
           </header>
-          <div className='absolute top-4 right-4 list-none  h-screen z-[100] md:hidden'>
+          <div className='absolute top-4 right-4 list-none mb-4  h-screen z-[100] md:hidden'>
             {authStatus && (
                 <li>
                   <LogoutBtn  />
