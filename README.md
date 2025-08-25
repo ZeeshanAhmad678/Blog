@@ -1,5 +1,5 @@
 
-#  Blog-To
+#  Blog
 
 A **modern blogging platform** built with **React, TailwindCSS, Appwrite, and Vercel**.
 Blog-To allows users to **create, manage, and explore blogs seamlessly** with authentication and a clean, responsive UI.
